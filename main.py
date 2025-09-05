@@ -12,7 +12,7 @@ FRONTEND_URL = "https://68bad13f1f038429360fe803--pragatikallappa.netlify.app/"
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[FRONTEND_URL],  # Allow only your frontend domain for security
+    allow_origins=["*"],  # Allow only your frontend domain for security
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
