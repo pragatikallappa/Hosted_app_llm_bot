@@ -8,7 +8,7 @@ from pydantic import BaseModel
 app = FastAPI()
 
 # Replace with your deployed frontend URL (Netlify)
-FRONTEND_URL = "https://super30classllmbot.netlify.app"
+FRONTEND_URL = "https://68bad13f1f038429360fe803--pragatikallappa.netlify.app/"
 
 app.add_middleware(
     CORSMiddleware,
