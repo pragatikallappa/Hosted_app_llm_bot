@@ -8,7 +8,8 @@ export default function App() {
   const [question, setQuestion] = useState("");
   const [chatHistory, setChatHistory] = useState([]);
   const [loading, setLoading] = useState(false);
-  const API_BASE_URL = " https://web-bot-swbz.onrender.com"; // Replace with your backend URL
+  const API_BASE_URL = "https://web-bot-1-g0h0.onrender.com "; // Replace with your backend URL
+  
   const messagesEndRef = useRef(null);
 
   useEffect(() => {
